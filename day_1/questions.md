@@ -1,7 +1,7 @@
 ## Day 1 Questions
 
 1. How would you print the string `"Hello World!"` to the terminal?
-   First you would type the command "puts" and then type in "Hello World", making sure to use double quotations.
+First you would type the command "puts" and then type in "Hello World", making sure to use double quotations.
 
 1. What is the character you would use to indicate comments in a ruby file?
    You would use the # character.
