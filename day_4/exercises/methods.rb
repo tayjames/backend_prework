@@ -11,15 +11,33 @@ print_name
 
 # Write a method that takes an argument of your name and prints your name
 def print_name(name)
-  # YOUR CODE HERE
+  p name
 end
 
 print_name("Albus Dumbledore")
 
 # Write a method that takes in 2 numbers and prints their sum, then call that
 # method.
-# YOUR CODE HERE
+def add(x, y)
+  p x + y
+end
+
+add(9, 4)
+add(16-7, 28/7)
+x = 9
+y = 4
+add(x, y)
+
 
 # Write a method that takes in two strings and prints a concatenation
 # of those two strings, for example the arguments could be (man, woman) and
 # the end result might be "When Harry Met Sally".  Then, call that method.
+
+movie = "My favorite movie is Kill Bill."
+volume = "But, in particular, I really like Volume 2."
+
+def fave_movie(m, v)
+  p "#{m}" + " #{v}"
+end
+
+fave_movie(movie, volume)
