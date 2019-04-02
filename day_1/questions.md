@@ -13,14 +13,18 @@
 +   An **integer** is a whole number, think of them as your counting numbers. A *float* is a number with a decimal point, kind of like the real numbers which contain all floats.
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
-   animal = "zebra"
+
++ animal = "zebra"
 
 1. How would you print the string `"zebra"` using the variable that you created above?
-   p animal
+
++ p animal
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 
-+  **Interpolation** is a way of combining a variable with a string. We do this by sticking data into the middle of a string.  *Only* works with double quotes, and with the **interpolation marker #{}**. Inside the brackets we can use any variables.
++  **Interpolation** is a way of combining a variable with a string. We do this by sticking data into the middle of a string.
++  *Only* works with double quotes, and with the **interpolation marker #{}**.
++  Inside the brackets we can use any variables.
 
 p   "There is not one #{animal} at the Pueblo Zoo!"
 
