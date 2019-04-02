@@ -25,3 +25,25 @@ w = 'This is the left side of...'
 e = "a string with a right side."
 #using the command "puts" to print the sum of the variables w and e.
 puts w + e
+
+tipas_de_personas = 10
+j = "Hay #{tipas_de_personas} tipas de personas."
+binario = "binario"
+no_saben = "no saben"
+i = "Hay quien saben #{binario} y ellos que #{no_saben}."
+
+puts j
+puts i
+
+puts "Yo digo: #{j}."
+puts "Tambien, yo digo: '#{i}'."
+
+comico = false
+evaluacion_de_chiste = "Este chiste es tan comico, no!? #{comico}"
+
+puts evaluacion_de_chiste
+
+v = "Hay es el lado izquierda de..."
+u = "un string con un lado derecho."
+
+puts v + u
