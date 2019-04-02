@@ -1,4 +1,4 @@
-#prints the string: I will now count my checkens
+#prints the string: I will now count my chic\kens
 puts "I will now count my chickens:"
 #adds 25 to the quotient of 30 / 6
 puts "Hens #{25 + 30 / 6}"
@@ -51,3 +51,8 @@ puts "How about some more."
 puts "Is it greater? #{5.0 > -2}"
 puts "Is it greater or equal? #{5.0 >= -2.0}"
 puts "Is it less or equal? #{5.0 <= -2.0}"
+# The use of #{3+2} in the code above is how you insert Ruby computations into text strings.
+# You can put anything that's Ruby code between the { (left-bracket) and } (right-bracket) characters...
+# ...and Ruby will run it and put the result there instead of those characters.
+
+puts "revision done."
