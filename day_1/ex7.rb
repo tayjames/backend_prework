@@ -15,3 +15,8 @@ print "Como le gusta a pasar su tiempo libre?"
 actividad = gets.chomp
 
 puts "Verdad, su nombre es #{nombre}, su comida favorita es #{comida}, y su te gusta a pasar su tiempo libre por #{actividad}."
+
+print "What did you dream about last night?"
+dream = gets.chomp
+
+puts "So you dreamed about #{dream} last night? Sounds cool."
