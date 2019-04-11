@@ -8,11 +8,11 @@ animals = ["Zebra", "Giraffe", "Elephant"]
 p animals
 
 # Write code below that will print an array of states. Store the array in a variable.
-states = ["Colorado", "Oregon", "New York", "California", "Washington", "New Mexico"]
+states = ["Colorado", "Oregon", "New York", "California", "Washington", "New Mexico", "Georgia", "Virginia", "Hawaii"]
 p states
 
 # Write code below that will print an array of foods. Store the array in a variable.
-comida = ["Enchilada", "Taco", "Huevos", "Tamales", "Carne Asada"]
+comida = ["Enchilada", "Taco", "Huevos", "Tamales", "Carne Asada", "Burrito", "Mole"]
 p comida
 
 # example: Write code below that will print the number of elements in array of
