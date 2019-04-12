@@ -1,4 +1,4 @@
-puts "You enter a dark room with two doors. Do you go through door #1 or door #2?"
+puts "You enter a dark room with three doors. Do you go through door #1 or door #2? or door #3"
 
 print "> "
 door = $stdin.gets.chomp
@@ -6,7 +6,7 @@ door = $stdin.gets.chomp
 if door == "1"
   puts "There's a giant bear here eating a cheese cake. What do you do?"
   puts "1. Take the cake."
-  puts "2. Scream at the bear"
+  puts "2. Scream at the bear."
 
   print "> "
   bear = $stdin.gets.chomp
@@ -37,3 +37,19 @@ elsif door == "2"
 else
   puts "You stumble around and fall on a knife and die. Good job!"
 end
+
+if door == "3"
+  puts "Prepare to lipsynch for your LIFE!"
+  puts "1. Shante you stay."
+  puts "2. Sashay away."
+
+  print "> "
+  unct = $stdin.gets.chomp
+
+  if unct == "1"
+    puts "You can go back with the other girls now."
+  else
+    puts "Now sashay away."
+
+  end
+end 
