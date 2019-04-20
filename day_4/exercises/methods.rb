@@ -23,7 +23,7 @@ def add(x, y)
 end
 
 add(9, 4)
-add(16-7, 28/7)
+add(16 - 7, 28 / 7)
 x = 9
 y = 4
 add(x, y)

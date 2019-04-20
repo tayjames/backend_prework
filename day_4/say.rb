@@ -17,7 +17,7 @@ end
 
 #ex.18
 def print_two(*args)
-  arg1, arg2 =args
+  arg1, arg2 = args
   puts "arg1: #{arg1}, arg2: #{arg2}"
 end
 
@@ -72,17 +72,19 @@ cheese_and_crackers(amount_of_cheese + 100, amount_of_crackers + 1000)
 
 #study drill
 
-def treats_for_sadie(x, y)
-  puts "Sadie needs some treats!"
-  puts "How many should I give her?"
-  puts "#{x}"
+def treats_for_sadie(x)
+  puts "Sadie needs some treats! How many should I give her?"
+  treats = gets.chomp.to_i
+
+  if treats == 5
+    puts "Sadie is the happiest dog on the planet!!"
+  else
+    puts "Sadie is definitely a good girl."
+  end
 end
 
-
 bones = 1
-dental_chews = 3
-
-treats_for_sadie(bones, dental_chews)
+treats_for_sadie(bones)
 
 # ruby ex.21
 
@@ -120,4 +122,4 @@ puts "Here is a puzzle."
 
 what = add(age, subtract(height, multiply(weight,divide(iq, 2))))
 
-puts "That becomes: #{what}. Can you do it by hand?"
+p "That becomes: #{what}. Can you do it by hand?"
