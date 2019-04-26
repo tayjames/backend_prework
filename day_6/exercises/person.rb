@@ -2,4 +2,24 @@
 # person methods below the class so that they print their result to the
 # terminal.
 
-#YOUR CODE HERE
+class Person
+  attr_accessor :name, :age
+
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+  def walk
+    p "#{name} goes for a walk."
+  end
+
+  def leisure
+    p "#{name} does 15 face masks."
+  end
+
+end
+
+layla = Person.new("layla", 13)
+layla.walk
+layla.leisure
